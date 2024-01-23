@@ -3,3 +3,78 @@
    padding: 0;
    box-sizing: border-box;
 }
+
+body{
+   background-color: black;
+   font-family: Arial;
+}
+
+.flex{
+   display: flex;
+}
+
+
+
+
+/* INIZIO HEADER */
+
+header{
+   justify-content: end;
+}
+
+.icon.header{
+   display: inline-block;
+   color: white;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 8px;
+   margin: 10px 10px 0 0;
+   line-height: 18px;
+   border-radius: 8px;
+}
+
+.background.icon.header{
+   background-color: rgb(74, 74, 74);
+}
+/* FINE HEADER */
+
+
+
+/* INIZIO MAIN */
+
+main{
+   margin-top: 50px;
+   justify-content: center;
+   overflow: auto;
+}
+
+.container{
+   width: 74%;
+   height: auto;
+   background-color: red;
+   flex-wrap: wrap;
+}
+
+.cards{
+   position: relative;
+   height: auto;
+}
+
+img{
+   max-width: 100%;
+   margin: 0 5px;
+}
+
+.mute-name{
+   width: 100px;
+   height: 30px;
+   line-height: 30px;
+   padding-left: 4px;
+   font-size: 14px;
+   position: absolute;
+   color: white;
+   background-color: rgba(173, 173, 173, 0.5);
+   bottom: 0;
+   left: 0;
+}
+/* FINE MAIN */
