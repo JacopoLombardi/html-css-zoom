@@ -13,6 +13,21 @@ body{
    display: flex;
 }
 
+.fixed{
+   position: fixed;
+}
+
+.relative{
+   position: relative;
+}
+
+.absolute{
+   position: absolute;
+}
+
+.margin-t{
+   margin-top: 5px;
+}
 
 
 
@@ -48,7 +63,7 @@ main{
    overflow: auto;
 }
 
-.container{
+.main.container{
    width: 74%;
    height: auto;
    background-color: red;
@@ -78,3 +93,88 @@ img{
    left: 0;
 }
 /* FINE MAIN */
+
+
+
+
+/* INIZIO FOOTER */
+
+/* PARTE SINISTRA */
+footer{
+   width: 100%;
+   height: 80px;
+   background-color: rgb(34, 34, 34);
+   align-items: center;
+   justify-content: space-between;
+}
+
+.icon, .text{
+   color: white;
+}
+
+.icon{
+   font-size: 30px;
+}
+
+.icon, 
+.text{
+   margin-top: 25px;
+}
+
+.box-left,
+.box-center{
+   height: 90%;
+   flex-direction: column;
+   margin-left: 20px;
+}
+
+.icon.left,
+.icon.center{
+   text-align: center;
+}
+
+.text{
+   font-size: 15px;
+}
+
+.fa-chevron-up{
+   font-size: 15px;
+}
+
+.box-chevron{
+   margin-left: 20px;
+   line-height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* finale */
+
+.text.right{
+   color: red;
+   background-color: rgb(74, 74, 74);
+   padding: 32px 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FINE FOOTER */
