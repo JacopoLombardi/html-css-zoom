@@ -25,9 +25,6 @@ body{
    position: absolute;
 }
 
-.margin-t{
-   margin-top: 5px;
-}
 
 
 
@@ -58,6 +55,7 @@ header{
 /* INIZIO MAIN */
 
 main{
+   height: calc(100vh - 120px);
    margin-top: 50px;
    justify-content: center;
    overflow: auto;
@@ -65,18 +63,19 @@ main{
 
 .main.container{
    width: 74%;
-   height: auto;
+   height: 850px;
    flex-wrap: wrap;
 }
 
 .cards{
    position: relative;
    height: auto;
+   height: 160px;
 }
 
 img{
    max-width: 100%;
-   margin: 0 5px;
+   margin: 0 2px;
 }
 
 .mute-name{
@@ -88,8 +87,8 @@ img{
    position: absolute;
    color: white;
    background-color: rgba(173, 173, 173, 0.5);
-   bottom: 0;
-   left: 0;
+   bottom: 0px;
+   left: 5px;
 }
 /* FINE MAIN */
 
@@ -150,7 +149,7 @@ footer{
 .text.right{
    color: red;
    background-color: rgb(74, 74, 74);
-   padding: 32px 18px;
+   padding: 32px 10px;
 }
 
 
@@ -163,7 +162,12 @@ footer{
    background-color: rgb(222, 222, 222);
    cursor: pointer;
    font-weight: 800;
-   font-size: 20px;
+   font-size: 17px;
 }
+
+
+
+
+
 
 /* FINE FOOTER */
